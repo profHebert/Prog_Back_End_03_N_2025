@@ -8,7 +8,7 @@
 <body>
     <h1>Testando php - 26/08/25</h1>
     <?php
-    echo "Comando pelo php novo";
+    echo "Comando pelo php novo<br>";
     ?>
     <br>
     <a href="pg1.php">PG1</a><br>
