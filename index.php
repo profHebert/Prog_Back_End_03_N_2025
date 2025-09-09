@@ -14,6 +14,8 @@
     <a href="pg1.php">PG1</a><br>
     <a href="pg2.php">PG2</a><br>
     <a href="pg3.php">PG3</a><br>
-    <a href="aula05_01.php">Aula05</a>
+    <a href="aula04_01.php">Aula04_01</a><br>
+    <a href="aula04_02.php">Aula04_02</a><br>
+    <a href="aula05_01.php">Aula05_01</a><br>
 </body>
 </html>

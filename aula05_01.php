@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Aula05_01 - 09/09/2025</h1>
-    <form method="post" action="aula05_02.php">
+    <form method="get" action="aula05_02.php">
         Nome <input type="text" name="nome"><br>
         Senha <input type="password" name="senha"><br>
         <p><input type="submit" value="Enviar!"></p>
