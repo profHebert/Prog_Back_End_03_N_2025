@@ -19,17 +19,17 @@
     if(count($_POST) == 0) exit; // SE NÃO TIVER NADA NO POST, SAI!!!
     $idade = $_POST["idade"];
 
-    echo "Idade digitada: <b>$idade<b>.";
+    echo "Idade digitada: <b>$idade<b> <br>";
     
-    if ($idade < 13) {
-        echo "Você não pode criar uma conta. A idade mínima é de 13 anos."
-    } else if($idade >= 14 && $idade <= 18) {
-        echo "Você pode criar uma conta com consentimento dos pais."
-    } else if($idade >= 18 && $idade <= 64) {
-        echo "Você pode criar uma conta. Bem vindo á nossa configuração."
+    if ($idade > 0 && $idade < 13) {
+        echo "Você não pode criar uma conta. A idade mínima é de 13 anos.";
+    } else if($idade < 17) {
+        echo "Você pode criar uma conta com consentimento dos pais.";
+    } else if($idade <= 64) {
+        echo "Você pode criar uma conta. Bem vindo á nossa configuração.";
     } else if($idade >= 65) {
-        echo "Você não pode criar uma conta. Lembre-se de verificar nossa configuração."
+        echo "Você não pode criar uma conta. Lembre-se de verificar nossa configuração.";
     } else {
-        echo "Idade inválida!!!"
+        echo "Idade inválida!!!";
     }
 ?>
