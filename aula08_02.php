@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula08_02</title>
+    <title>Aula08_02</title> 
 </head>
 <body>
     <h1>Aula08_02 - 30/09/25</h1>
