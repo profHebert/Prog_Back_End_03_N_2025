@@ -1,4 +1,5 @@
 <?php
+include "aula10_menu.php";
 if (session_status() == PHP_SESSION_NONE) { session_start(); } 
 //imprimir o usuário e o e-mail armazenados na session
 $usuario=$_SESSION['usuario'];
